@@ -1,5 +1,5 @@
 # SIM Penjualan Albumi Comp
-![logo](https://github.com/sopyantirtolaksono/SIM-Albumi-Comp.git/dist/img/demo.PNG)
+![logo](https://github.com/sopyantirtolaksono/SIM-Albumi-Comp/blob/main/dist/img/demo.PNG)
 
 ## Tentang
 - Aplikasi ini merupakan sebuah sistem informasi managemen penjualan (SIM) berbasis web dengan studi kasus pada Toko Albumi Comp atau Albumi IT Store
