@@ -1,0 +1,64 @@
+/* Desktop view */
+div.row-registration {
+    display: flex;
+    flex-direction: row;
+}
+
+div.col-form-registration {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div.col-bg-registration {
+    flex: 6;
+}
+
+div.form-registration-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 1rem;
+}
+
+    div.form-registration-content form {
+        width: 80%;
+    }
+    div.form-registration-content h2 {
+        margin-bottom: 8vh;
+    }
+    div.form-registration-content input:focus {
+        box-shadow: none;
+    }
+    div.form-registration-content select:focus {
+        box-shadow: none;
+    }
+
+div.bg-registration-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/bg-img/1.jpg') no-repeat center center / cover;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
+
+  .col-bg-registration {
+    display: none;
+  }
+
+  .col-form-registration {
+    justify-content: start;
+  }
+}
